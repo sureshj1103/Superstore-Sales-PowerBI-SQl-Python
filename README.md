@@ -7,7 +7,7 @@ This Power BI dashboard turns four years of Superstore sales data into a clear e
  - <a href="https://github.com/sureshj1103/Superstore-Sales-PowerBI-SQl-Python/blob/main/Superstore.csv">Dataset</a>
 ![Superstore_PowerBI_Dashboard](https://github.com/user-attachments/assets/f9ff9f56-d609-4930-8e36-59c715a005dc)
 
-Key Features
+## Key Features
 •	At-a-Glance KPIs: Shows sales, profit, and returns with year-over-year changes.
 •	Trend Analysis: Tracks performance over time with a custom date setup.
 •	Product measures: Highlights top and underperforming product categories.
@@ -160,6 +160,12 @@ This Power BI dashboard turns Superstore sales data into clear, actionable measu
 •	Create visuals that highlight trends and opportunities.
 •	Deliver business recommendations that drive decisions.
 It identifies profit gaps (e.g., Tables, Texas) and growth areas (e.g., Home Office, California), helping stakeholders make smarter choices.
+________________________________________
+🔮 Future Work
+Integrate with the live sales API for real-time data
+Add predictive analytics (e.g., forecast sales using ARIMA/LSTM)
+
+
 Thanks for exploring!
 ________________________________________
 Created by Suresh
