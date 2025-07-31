@@ -6,6 +6,7 @@ This Power BI dashboard turns four years of Superstore sales data into a clear e
 
  - <a href="https://github.com/sureshj1103/Superstore-Sales-PowerBI-SQl-Python/blob/main/Superstore.csv">Dataset</a>
 ![Superstore_PowerBI_Dashboard](https://github.com/user-attachments/assets/f9ff9f56-d609-4930-8e36-59c715a005dc)
+
 Key Features
 •	At-a-Glance KPIs: Shows sales, profit, and returns with year-over-year changes.
 •	Trend Analysis: Tracks performance over time with a custom date setup.
@@ -13,24 +14,24 @@ Key Features
 •	Regional Breakdown: Maps profit by state to uncover geographic trends.
 •	Customer Segments: Reveals sales distribution across customer types.
 ________________________________________
-Business Problem & Solution
-Problem
+# Business Problem & Solution
+## Problem
 Superstore’s sales data holds valuable insights, but without visuals, it’s hard to:
 •	Track performance trends quickly.
 •	Spot profit drivers or losses.
 •	See regional patterns.
 •	Compare current results to past years.
-Solution
+## Solution
 •	Build a simple dashboard with key metrics and comparisons.
 •	Analyze data by region, product, and customer type.
 •	Find specific ways to boost profit.
 •	Let stakeholders explore data easily.
-Key Business Questions
+# Key Business Questions
 How are core business metrics performing compared to prior periods?
 Which products and regions drive profit or generate losses?
 How do customer segments contribute to overall performance?
 What patterns show up in regional profits?
-Approach
+# Approach
 1.	Prepared Data: Imported only essential columns for efficiency.
 2.	Added Time Analysis: Created a custom date table for accurate year-over-year trends.
 3.	Built Visuals: Designed a single-screen dashboard with clear, complementary charts.
@@ -38,21 +39,22 @@ Approach
 5.	Optimized Performance: Used efficient calculations for a fast, responsive experience.
 This dashboard transforms raw data into a tool for spotting trends and making decisions.
 ________________________________________
-Key Business Findings
-Performance Overview
-The dashboard shows strong growth in 2017 vs. 2016, with some areas needing attention.
+# Key Business Findings
+## Performance Overview
+The dashboard indicates strong growth in 2017 compared to 2016, with some areas requiring attention.
 Overall Growth:
 •	Sales up 20.4% to $733K
 •	Profit up 14.2% to $93K
 •	Returns down 5.0% to 17.5%
- 
-Quarterly Trends:
+![image.png](attachment:86d7241f-ab98-4b9d-b72e-e6e4f57eeb3c:image.png)
+## Quarterly Trends:
 •	Q1, Q3 and Q4 2017 beat prior year
 •	November 2017 was the peak
 •	Strong year-end suggests growth into 2018
- 
+ <img width="678" height="308" alt="image" src="https://github.com/user-attachments/assets/09dde6c8-cf6b-4f14-a506-94f16a86f569" />
+
 ________________________________________
-Product Performance
+# Product Performance
 Technology leads profits, but some products are losing money.
 Technology Dominates Profitability
 •	Tech profit up 27% vs PY to $50.68k
@@ -64,48 +66,56 @@ Loss Makers:
 •	Tables -$8.1K
 •	Machines -$2,.9K
 •	Supplies -$1.0
- 
+ <img width="1014" height="1040" alt="image" src="https://github.com/user-attachments/assets/1a3047f9-b921-4634-9ce0-24a54a993193" />
+
 ________________________________________
-Regional Performance
+# Regional Performance
 Profit varies widely by state, revealing hidden challenges.
-Top and Bottom States:
+## Top and Bottom States:
 •	California leads with $29.4K profit
 •	Texas**:** $8.8K loss
 •	9 states unprofitable, including Illinois (-$6.7K)
- 
-Central Region Struggles
+ <img width="1574" height="974" alt="Region" src="https://github.com/user-attachments/assets/2a2f5370-941a-4c1f-8138-f9bce0ca2587" />
+
+## Central Region Struggles
 •	Sales flat (-0.2% vs PY)
 •	Profit down 62.1% to $7.6K
 •	Losses in Binders (-$4.0K) and Tables (-$2.2K) need action
- 
-Illinois Drill-Down
+ <img width="1699" height="876" alt="Performance Overview" src="https://github.com/user-attachments/assets/2e549e07-2710-4ca7-ad56-5ca62d0fe2a1" />
+
+## Illinois Drill-Down
 •	Sales up 15.8%, but profit still negative at -$6.7K (140.1% improvement)
 •	High return rate (296%) hurts profitability, despite 145.8% improvement
- 
-Texas Drill-Down
+  <img width="820" height="848" alt="image (1)" src="https://github.com/user-attachments/assets/5e3f02bb-b512-447b-b86a-c73cc4031a43" />
+
+## Texas Drill-Down
 •	Sales flat, profit improved 68% but still a $8.8K loss
 •	Returns improved 62% to 180%, showing progress but ongoing issues
- 
+<img width="839" height="853" alt="Profit By Product" src="https://github.com/user-attachments/assets/9ab4c0f2-2d47-429b-9054-e2007885bfb5" />
+
 ________________________________________
-Customer Segments
+# Customer Segments
 Sales vary by customer type, with Home Office showing the most growth.
-Sales Breakdown:
+## Sales Breakdown:
 •	Consumer: 45.3%
 •	Corporate : 33.9%
 •	Home Office 21.8%
- 
-Home Office: Growth Leader
+ <img width="353" height="367" alt="Customer Segments" src="https://github.com/user-attachments/assets/7a93355a-f63d-43c2-8986-7b7dbb0c35ad" />
+
+## Home Office: Growth Leader
 •	Sales up 51.5%
 •	Profit up 40.3% to $21.1K
 •	Returns down 29.2%
- 
-Corporate Challenges
+ <img width="2048" height="1064" alt="image (6)" src="https://github.com/user-attachments/assets/4b825d05-5f89-43ad-98a0-a6cf4afe1058" />
+
+## Corporate Challenges
 •	Sales up 16.8% to $241.9K
 •	Profit down 13.6% to $26.8K
 •	Returns improved 10.1%, but margins need attention
- 
+ <img width="2032" height="454" alt="image (7)" src="https://github.com/user-attachments/assets/3a765540-27e9-43c3-aa4a-59a43cdab15a" />
+
 ________________________________________
-Business Recommendations
+# Business Recommendations
 Actionable Steps
 1.	Grow Home Office Segment: Expand marketing to Home Office customers (51.5% sales growth, 40.3% profit growth).
 2.	Focus on Technology: Prioritize Copiers ($25K) and Accessories ($15.7K); reduce focus on Tables (-$8.1K).
@@ -119,7 +129,7 @@ Answers to Key Questions
 4.	Regional Patterns: State-level differences (e.g., Central region) show local strategies matter more than regional ones.
 These recommendations address specific performance issues while capitalizing on identified opportunities, providing a data-driven roadmap for improved business results.
 ________________________________________
-Technical Implementation
+# Technical Implementation
 Skills Demonstrated
 •	Built advanced calculations for time trends and KPIs.
 •	Created a custom date table for accurate analysis.
@@ -144,7 +154,7 @@ Usage Tips
 •	Click segments to cross-filter the dashboard.
 This setup turns raw data into a practical tool for business insights.
 ________________________________________
-Conclusion
+# Conclusion
 This Power BI dashboard turns Superstore sales data into clear, actionable measures. It shows I can:
 •	Build efficient data models and calculations.
 •	Create visuals that highlight trends and opportunities.
