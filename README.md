@@ -4,7 +4,7 @@ Power BI Analytics Dashboard
 Overview
 This Power BI dashboard turns four years of Superstore sales data into a clear executive summary. It helps sales leaders and product managers spot profit opportunities across regions, products, and customer segments using intuitive visuals and year-over-year comparisons.
 
- - <a href="https://github.com/ritikbh193/Data-Analysis-Dashboard/blob/main/Vrinda%20DataX2Analysis2.xlsx">Dataset</a>
+ - <a href="https://github.com/sureshj1103/Superstore-Sales-PowerBI-SQl-Python/blob/main/Superstore.csv">Dataset</a>
 ![Superstore_PowerBI_Dashboard](https://github.com/user-attachments/assets/f9ff9f56-d609-4930-8e36-59c715a005dc)
 Key Features
 •	At-a-Glance KPIs: Shows sales, profit, and returns with year-over-year changes.
