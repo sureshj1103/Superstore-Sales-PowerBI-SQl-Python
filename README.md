@@ -131,7 +131,7 @@ What I Did
 •	Time Analysis: Added a custom date table for year-over-year comparisons.
 •	Calculations: Created measures for sales, profit, and returns, including % changes.
 •	Visuals: Designed a compact dashboard with KPI cards, trends, and maps.
-•	Interactivity: Added a slicer panel (accessible via funnel icon) to filter by date, region, and more. Enabled cross-filtering and drill-downs to instantly update all visuals when clicking on any chart.
+•	Interactivity: Added a slicer panel (accessible via funnel icon) to filter by date, region, and more. Enabled cross-filtering and drill-downs to update all visuals when clicking on any chart instantly.
 Dataset
 •	Tables Used: Orders (sales, profit, dates) and Returns (order IDs).
 •	Key Measures: Sales, profit, return rates, and year-over-year changes.
@@ -152,5 +152,5 @@ This Power BI dashboard turns Superstore sales data into clear, actionable measu
 It identifies profit gaps (e.g., Tables, Texas) and growth areas (e.g., Home Office, California), helping stakeholders make smarter choices.
 Thanks for exploring!
 ________________________________________
-Created by Tony Nick
+Created by Suresh
 
